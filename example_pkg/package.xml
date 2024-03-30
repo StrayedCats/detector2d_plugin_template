@@ -4,7 +4,7 @@
   <name>example_pkg</name>
   <version>0.0.0</version>
   <description>The example_pkg package</description>
-  <maintainer email="ray255ar@gmail.com">Ar-Ray-code</maintainer>
+  <maintainer email="todo@example.com">TODO</maintainer>
   <license>Apache-2.0 License</license>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
