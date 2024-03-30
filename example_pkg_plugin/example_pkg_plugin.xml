@@ -1,0 +1,5 @@
+<library path="example_pkg_plugin">
+    <class type="detector2d_plugins::DetectorExample" base_class_type="detector2d_base::Detector">
+        <description>TODO</description>
+    </class>
+</library>
