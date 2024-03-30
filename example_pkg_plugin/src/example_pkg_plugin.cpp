@@ -16,7 +16,7 @@ vision_msgs::msg::Detection2DArray DetectorExample::detect(const cv::Mat & image
   detector->detect(image, objects);
 
   if (this->params_.debug) {
-    cv::imshow("detector", detector->draw_bboxes(image, objects));
+    cv::imshow("detector", this->draw_bboxes(image, objects));
     auto key = cv::waitKey(1);
     if (key == 27) {
       rclcpp::shutdown();

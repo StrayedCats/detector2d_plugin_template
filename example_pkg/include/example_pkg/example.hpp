@@ -9,6 +9,5 @@ class DetectorExample
 public:
     DetectorExample();
     void detect(const cv::Mat &, vision_msgs::msg::Detection2DArray &);
-    cv::Mat3b draw_bboxes(const cv::Mat &, const vision_msgs::msg::Detection2DArray &);
 };
 }

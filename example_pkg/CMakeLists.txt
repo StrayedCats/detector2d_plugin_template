@@ -26,8 +26,8 @@ ament_auto_add_library(${PROJECT_NAME} SHARED ${SRCS})
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 
 ## example_pkg example (for testing) ##
-# ament_auto_add_executable(main example/main.cpp)
-# target_link_libraries(main ${PROJECT_NAME})
+ament_auto_add_executable(main example/main.cpp)
+target_link_libraries(main ${PROJECT_NAME})
 
 # test
 if(BUILD_TESTING)
